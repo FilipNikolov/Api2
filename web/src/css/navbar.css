@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+*{
+    font-family: 'Krub', sans-serif;
+}
+.navbar {
+   width: 100%;
+   height:65px;
+    background-color: #EFF2F3;
+    box-shadow: 1px 2px 2px #E3F3F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#leftside{
+   width: 40%;
+}
+#rightside{
+   width: 60%;
+   display: flex;
+   flex-direction: row;
+   gap: 25px;
+   align-items: center;
+}
+button {
+background-color: transparent;
+border: none;
+cursor: pointer;
+color: #545454;
+font-size: 15px;
+font-weight: bold;
+
+}
+button:hover{
+color: #008FE1;
+transition: 0.5s;
+}
+#home {
+    color: #008FE1;
+}
+#home:hover{
+    transition: 0.5s;
+    color: #545454;
+}
+.getstarted{
+    width: 120px;
+    height: 35px;
+    background-color: #DEE3F5;
+    color: blue;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+  
+}
+#getstarted{
+    font-family: Arial;
+}
+.getstarted:hover {
+    background-color: #008FE1;
+    transition: 0.3s;
+    color: white;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+  }
+.dropdown-content {
+    display: NONE;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+
+
+}
+.dropdown:hover .dropdown-content {
+    display:block;
+    border-radius: 7px;
+
+}
+.dropbox{
+    padding-top: 100px;
+}
+
+
+
