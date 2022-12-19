@@ -2,6 +2,9 @@
 *{
     font-family: 'Krub', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 .navbar {
    width: 100%;
    height:65px;
@@ -41,23 +44,22 @@ transition: 0.5s;
     transition: 0.5s;
     color: #545454;
 }
-.getstarted{
+.navbuttonget{
     width: 120px;
     height: 35px;
-    background-color: #DEE3F5;
-    color: blue;
+    background-color: #cdcdf1;
+    color: #3b4ef8;
     cursor: pointer;
     font-size: 15px;
+    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    letter-spacing: 0.7px;
   
 }
-#getstarted{
-    font-family: Arial;
-}
-.getstarted:hover {
+.navbuttonget:hover {
     background-color: #008FE1;
     transition: 0.3s;
     color: white;

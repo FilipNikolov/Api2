@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import "../css/homepage.css";
 import Img from "../imgs/mainimg.png";
 import { GetStared } from "./GetStarted";
+import Features from "./Features";
 
 export function HomePage() {
     return (
@@ -18,6 +19,7 @@ export function HomePage() {
                 </div>
             </div>
             <GetStared />
+            <Features />
         </div>
     );
 }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+*{
+    font-family: 'Krub', sans-serif;
+}
+#featurestitle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: #4f72ab;
+}
+#smallbox{
+    background-color: #a9a9d1;
+    height: 5px;
+    width: 60px;
+}
+#textdown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#downtext{
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+}

@@ -1,7 +1,8 @@
 import React from "react";
 import "../css/navbar.css";
 import { GetStared } from "./GetStarted";
-export function Navbar() {
+
+function Navbar() {
     return (
         <div className="navbar">
             <div id="leftside">
@@ -41,8 +42,8 @@ export function Navbar() {
                 <div className="buttons">
                     <button classname="navbuttons" id="contant">Contact</button>
                 </div>
-                <div className="getstarted">
-                    <div id="getstarted"><a href={GetStared}></a></div>
+                <div className="navbuttonget">
+                    <div id="getstartednav"><a href={GetStared}>Get Started</a></div>
                 </div>
             </div>
         </div >
