@@ -30,3 +30,33 @@
     color: grey;
     font-size: 18px;
 }
+#imgcont{
+    width: 500px;
+}
+#maincontent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+#rightsideofcon {
+    width: 720px;
+}
+#titlright{
+    font-size: 25px;
+}
+#textaboute{
+    font-size: 20px ;
+    color: grey;
+}
+#titlright{
+    color: grey;
+}
+.rowsofside{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 19px;
+    color: grey;
+
+}
