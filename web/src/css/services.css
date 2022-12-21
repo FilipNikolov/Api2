@@ -1,0 +1,71 @@
+#servicesmainbox{
+    padding-top: 50px;
+    height: 600px;
+    width: 100%;
+}
+#servicesback{
+    background-color: #2d405f;
+    height: 100%;
+    width: 100%;
+}
+#servicetitlebox{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: white;
+}
+#smallboxservices{
+    background-color: #a9a9d1;
+    height: 5px;
+    width: 60px;
+}
+#textserviceabove{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 17px;
+    
+}
+#hoverboxes{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;   
+
+}
+.servicebox{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    border-radius: 6px;
+ cursor: pointer;
+
+}
+.servicebox:hover {
+    width: 370px;
+    height: 340px;
+transition: 0.4s;
+}
+.photo{
+    height: 20%;
+}
+.nameofservice{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    
+}
+.aboutservice{
+    display: flex;
+    text-align: center;
+    color: grey;
+    width: 350px;
+}
+    

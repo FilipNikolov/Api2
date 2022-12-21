@@ -3,7 +3,9 @@ import Navbar from "./Navbar";
 import "../css/homepage.css";
 import Img from "../imgs/mainimg.png";
 import { GetStared } from "./GetStarted";
-import Features from "./Features";
+import { Features } from "./Features";
+import { Table } from "./Table";
+import { Services } from "./Services";
 
 export function HomePage() {
     return (
@@ -20,6 +22,8 @@ export function HomePage() {
             </div>
             <GetStared />
             <Features />
+            <Table />
+            <Services />
         </div>
     );
 }

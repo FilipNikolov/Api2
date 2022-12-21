@@ -60,3 +60,27 @@
     color: grey;
 
 }
+#maincontent2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 100px;
+}
+#imgcont2{
+    width: 500px;
+}
+#rightsideofcon2 {
+    width: 720px;
+}
+#maincontent3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+padding-top: 100px;
+}
+#maincontent4{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 100px;
+}
