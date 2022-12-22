@@ -22,15 +22,21 @@ export function Contact() {
                     </div>
                 </div>
                 <div id="rightside">
+
                     <div id="inputorow1">
-                        <input type="text"></input>
+                        <input type="text" class="contactinput" placeholder="Your name"></input>
+                        <input type="text" class="contactinput" placeholder="Your Email"></input>
                     </div>
-                    <div id="secondrow">
+                    <div id="inputrow2">
+                        <input type="text" class="contactsubject" placeholder="Subject"></input>
+                    </div>
+                    <div id="thirthrow">
+                        <textarea placeholder="Message"></textarea>
+                        <div id="submitbutton"><a id="submitlink" href="" >Send Message</a></div>
+                    </div>
 
-                    </div>
                 </div>
-
             </div>
-        </div>
+        </div >
     )
 }
