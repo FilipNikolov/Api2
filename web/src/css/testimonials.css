@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@500&display=swap');
+*{
+    font-family: 'Krub', sans-serif;
+}
+#testimonials {
+    height: 600px;
+    width: 100%;
+   
+}
+#testititle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    color: #555454;
+    font-weight: bolder;
+}
+.smallboxtesti{
+    background-color: #a9a9d1;
+    height: 5px;
+    width: 60px;
+}
+#testitextabove{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.testiabouttext{
+    width: 1300px;
+    color: #555454;
+    font-size: 16px;
+}
+
+#testiboxes{
+    width: 100%;
+    height: 600px;
+     padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     gap: 10px;
+
+}
+.testibox {
+    width: 310px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+.textinboxtesti{
+    text-align: center;
+    font-size: 15px;
+    color: #555454;
+    padding-top: 30px;
+}
+.testposition {
+    height: 50%;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+color: #555454  ;
+}

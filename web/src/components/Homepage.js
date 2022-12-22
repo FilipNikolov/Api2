@@ -6,6 +6,8 @@ import { GetStared } from "./GetStarted";
 import { Features } from "./Features";
 import { Table } from "./Table";
 import { Services } from "./Services";
+import { Testimonials } from "./Testimonials";
+import { Contact } from "./Contact";
 
 export function HomePage() {
     return (
@@ -24,6 +26,8 @@ export function HomePage() {
             <Features />
             <Table />
             <Services />
+            <Testimonials />
+            <Contact />
         </div>
     );
 }

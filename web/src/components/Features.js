@@ -10,7 +10,7 @@ export function Features() {
         <div id="features">
             <div id="featurestitle">
                 <h1>Features</h1>
-                <div id="smallbox"></div>
+                <div class="smallbox"></div>
             </div>
             <div id="textdown">
                 <p id="downtext">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
