@@ -21,7 +21,7 @@ export function Contact() {
                         <div class="emailocontact"></div>
                     </div>
                 </div>
-                <div id="rightside">
+                <div id="rightsidecontact">
 
                     <div id="inputorow1">
                         <input type="text" class="contactinput" placeholder="Your name"></input>

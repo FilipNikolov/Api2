@@ -73,7 +73,7 @@
     box-shadow: 5px 5px 20px #e7e7e7;
         border-radius: 1.5px;
 }
-#rightside{
+#rightsidecontact{
     width: 50%;
     height: 400px;
     display: flex;
@@ -141,14 +141,14 @@ textarea{
     display: flex;
     justify-content: center;
 }
-a {
+#submitlink {
     padding: 20px;
     background-color: #3b4ef8;
     color: white;
     border-radius: 10px;
 }
-a:hover {
-background-color: #303ec0;
-transition: 0.4s;
-border: 1px solid #a9a9d1;
-}
+#submitlink:hover {
+    background-color: #303ec0;
+    transition: 0.4s;
+    border: 1px solid #a9a9d1;
+    }
